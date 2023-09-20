@@ -1,0 +1,25 @@
+button{
+ 
+    margin: 5px;
+    flex: 1 50px;
+    min-height: 50px;
+    background-color: #FFEAD2;
+    border-radius: 5px;
+}
+
+.f{
+    display: flex;
+    flex-wrap: wrap;
+}
+#calculator{
+    max-width: 400px;
+    border: 1px solid black;
+    background-color: #ACB1D6;
+}
+#result{
+    height: 50px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+}
