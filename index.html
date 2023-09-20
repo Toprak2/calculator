@@ -5,37 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    
     <title>Document</title>
 </head>
 <body>
     <div id="calculator">
-        <div id="result"></div>
+        <div class="f">
+            <button id="AC_button">AC</button>
+            <div id="result"></div>
+        </div>
+        
         <div id="buttons-menu">
             <div class="row f">
                 <button class="button"> 7</button>
                 <button class="button"> 8</button>
                 <button class="button"> 9</button>
-                <button class="button"> +</button>
+                <button class="add_button operand">+</button>
             </div>
             <div class="f">
                 <button class="button"> 4</button>
                 <button class="button"> 5</button>
                 <button class="button"> 6</button>
-                <button class="button"> -</button>
+                <button class="subtract_button operand">-</button>
             </div>
             <div class="f">
                 <button class="button"> 1</button>
                 <button class="button"> 2</button>
                 <button class="button"> 3</button>
-                <button class="button"> *</button>
+                <button class="multiply-button operand">*</button>
             </div>
             <div class="f">
             <button class="button"> .</button>
             <button class="button"> 0</button>
-            <button class="button"> =</button>
-            <button class="button"> /</button>
+            <button class="equals_button"> =</button>
+            <button class="divide_button operand">/</button>
             </div>
         </div>
     </div>
+    <script src="./calculator.js"></script>
 </body>
 </html>
