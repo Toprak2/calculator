@@ -10,6 +10,7 @@ button{
 .f{
     display: flex;
     flex-wrap: wrap;
+    
 }
 #calculator{
     max-width: 400px;
@@ -23,4 +24,12 @@ button{
     margin: 10px;
     background-color: white;
     border-radius: 5px;
+    font-size: 42px;
+    flex-grow: 1;
+}
+#AC_button{
+    flex-grow: 0;
+    padding: 0px;
+    margin: 10px 0 10px 10px;
+    background-color:#DBDFEA;
 }
