@@ -1,21 +1,19 @@
 button{
  
     margin: 5px;
-    flex: 1 50px;
     min-height: 50px;
     background-color: #FFEAD2;
     border-radius: 5px;
+    flex:1;
 }
 
 .f{
     display: flex;
-    flex-wrap: wrap;
-    
 }
 #calculator{
-    max-width: 400px;
     border: 1px solid black;
-    background-color: #ACB1D6;
+    background-color: #ACB1D6;    
+    flex-basis: 600px;
 }
 #result{
     height: 50px;
@@ -24,12 +22,25 @@ button{
     margin: 10px;
     background-color: white;
     border-radius: 5px;
-    font-size: 42px;
-    flex-grow: 1;
+    font-size: 32px;
+    flex:auto;
+    
 }
 #AC_button{
+   
     flex-grow: 0;
+    flex-basis: 50px;
     padding: 0px;
     margin: 10px 0 10px 10px;
     background-color:#DBDFEA;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    gap:100px;
+    align-items: center ;
+    flex: 1;
+    height: 95vb;
+  
+    flex-wrap: wrap;
 }
